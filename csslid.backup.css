@@ -1,0 +1,254 @@
+/*
+Theme Name: Hueman Pro child
+Theme URI: http://presscustomizr.com/hueman-pro/
+Version: 1.0.0
+Description: The premium version of the popular Hueman WordPress theme.
+Author: saul
+Author URI: http://presscustomizr.com
+template: hueman-pro
+Tags: one-column, two-columns, three-columns, right-sidebar, left-sidebar, custom-colors, custom-menu, featured-images, flexible-header, full-width-template, post-formats, sticky-post, theme-options, threaded-comments, translation-ready
+Text Domain: hueman
+Copyright: (c) 2017 Press Customizr
+License: GNU General Public License v3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+*/
+/*BORDE IMAGEN*/
+.bordeimg {
+    border: 3px solid #5a5555;
+    padding: 15px;
+}
+
+/*WIDGET CURSOS GRATUITOS*/
+#alxposts-3 > .widget-title{
+	background: #4289B2;
+    font-weight: normal;
+    font-size: 18px;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 3px;
+}
+
+#alxposts-3 > .widget-title:before
+{font-family:'FontAwesome';
+content:"\f004";
+font-size:14px;
+margin-right:10px}
+
+
+
+/*WIDGET TENDENCIAS */
+#alxtabs-2 > .widget-title{
+    background: #FF646F;
+    font-weight: normal;
+    font-size: 18px;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 3px;
+}
+
+#alxtabs-2 > .widget-title:before
+{font-family:'FontAwesome';
+content:"\f005";
+font-size:14px;
+margin-right:10px}
+
+#tab-popular-2 .tab-item-title:before{
+font-family:'FontAwesome';
+content:"\f061";
+font-size:14px;
+margin-right:10px;
+color: #FF646F;
+}
+
+
+
+/*WIDGET ETIQUETAS*/
+#tag_cloud-3 > .widget-title{
+	background: #69C773;
+    font-weight: normal;
+    font-size: 18px;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 3px;
+}
+
+#tag_cloud-3 > .widget-title:before
+{font-family:'FontAwesome';
+content:"\f08d";
+font-size:14px;
+margin-right:10px}
+
+
+
+/*WIDGET FACEBOOK*/
+#text-4 > .widget-title{
+	background: #4289B2;
+    font-weight: normal;
+    font-size: 18px;
+    color: #fff;
+    padding: 8px 12px;
+    margin-bottom: -16px;
+    border-radius: 3px;
+}
+
+
+#text-4 > .widget-title:before
+{font-family:'FontAwesome';
+content:"\f164";
+font-size:16px;
+margin-right:10px}
+
+/*WIDGET YOUTUBE*/
+#text-5 > .widget-title{
+    background: #f52a31;
+    font-weight: normal;
+    font-size: 18px;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 3px;
+}
+
+#text-5 > .widget-title:before
+{font-family:'FontAwesome';
+content:"\f16a";
+font-size:16px;
+margin-right:10px}
+
+
+/*WIDGET TUTORIALES SECUNDARIO */
+#alxposts-4 > .widget-title{
+	background: #69C773;
+    font-weight: normal;
+    font-size: 18px;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 3px;
+}
+
+#alxposts-4 > .widget-title:before
+{font-family:'FontAwesome';
+content:"\f0e7";
+font-size:16px;
+margin-right:10px}
+
+
+
+
+
+
+
+
+
+
+/*  WIDGET TUTORIALES POPULARES PRIMARY 
+
+#3 TUTORIALES
+#4 CURSOS
+#5 LISTAS
+
+*/
+
+/*TITULO WIDGETS*/
+#alxtabs-3 > .widget-title, #alxtabs-4 > .widget-title, #alxtabs-5 > .widget-title, #alxtabs-6 > .widget-title, #alxtabs-7 > .widget-title {
+    background: #4289B2;
+    font-weight: normal;
+    font-size: 18px;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 3px;
+}
+
+/*BEFORE ICONO ITEMS WIDGETS*/
+#alxtabs-3 .tab-item-title:before , #alxtabs-4 .tab-item-title:before , #alxtabs-5 .tab-item-title:before,
+#alxtabs-6 .tab-item-title:before,#alxtabs-7 .tab-item-title:before{
+font-family:'FontAwesome';
+content:"\f061";
+font-size:14px;
+margin-right:10px;
+color: #FF646F;
+}
+
+/*ICONO TITULO WIDGETS*/
+#alxtabs-3 > .widget-title:before
+{font-family:'FontAwesome';
+content:"\f0e7";
+font-size:16px;
+margin-right:10px}
+
+#alxtabs-4 > .widget-title:before
+{font-family:'FontAwesome';
+content:"\f004";
+color:white;
+font-size:16px;
+margin-right:10px}
+
+#alxtabs-5 > .widget-title:before
+{font-family:'FontAwesome';
+content:"\f0ca";
+color:white;
+font-size:16px;
+margin-right:10px}
+
+#alxtabs-6 > .widget-title:before
+{font-family:'FontAwesome';
+content:"\f005";
+color:white;
+font-size:16px;
+margin-right:10px}
+
+#alxtabs-7 > .widget-title:before
+{font-family:'FontAwesome';
+content:"\f005";
+color:white;
+font-size:16px;
+margin-right:10px}
+
+
+/*WIDGETS FOOTER*/
+#calendar-2 > .widget-title ,#alxvideo-2 > .widget-title ,#text-7 > .widget-title {
+    background: #4289B2;
+    font-weight: normal;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 3px;
+}
+
+
+
+/*FORMUMARIO DE CONTACTO */
+
+ input[type="button"], input[type="reset"], input[type="submit"], .button{
+    background-color: #333;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 300;
+    margin-top: 5px;
+    padding: 5px 10px;
+    border-radius: 6px;
+ }
+
+#mitexto{
+	background-color: #ececec;
+	padding: 14px;
+	 color: #000;
+}
+
+/* ANUNCIOS */
+#text-9 .textwidget{
+	margin-bottom: -25px;
+    margin-top: -45px;
+}
+ /* Listas article*/
+.entry ul li{
+	list-style: none;
+	background: url(https://www.locurainformaticadigital.com/wp-content/uploads/2018/03/arrow.png) no-repeat top left;
+    background-position: 0 5px;
+    line-height: 1.5625;
+    padding: 0 0 8px 26px;
+    margin-left: 3em;
+}
+    
